@@ -8,13 +8,23 @@
     <title>Atividade 7</title>
   </head>
   <body>
-    <h1>Calcule a sua Massa Corporea</h1>
-    <div>
-      <p>Altura em centimetro</p>
-      <input type="number" />
-      <p>Peso em kilo</p>
-      <input type="number" />
-      <h3 class="resultado"></h3>
+    <div class="container">
+      <h1>IMC</h1>
+      <div class="elements">
+        <div class="altura">
+          <p>Altura em metros, ex. 1.80:</p>
+          <input class="al" type="number" />
+        </div>
+        <div class="peso">
+          <p>Peso em kilo, ex. 70</p>
+          <input class='pe' type="number" />
+        </div>
+        <div class="btn-resul">
+          <button class="btn">Calcular</button>
+          <h3 class="resultado"></h3>
+        </div>
+      </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
